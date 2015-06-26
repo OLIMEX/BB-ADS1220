@@ -1,0 +1,249 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ads1220
+LIBS:bb-ads1220-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ADS1220 U1
+U 1 1 550FCCB7
+P 5300 3600
+F 0 "U1" H 5150 2900 60  0000 C CNN
+F 1 "ADS1220" H 5300 2800 60  0000 C CNN
+F 2 "" H 5300 3600 60  0000 C CNN
+F 3 "" H 5300 3600 60  0000 C CNN
+	1    5300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 550FCD22
+P 5000 4750
+F 0 "C2" H 5025 4850 50  0000 L CNN
+F 1 "100nF" H 5025 4650 50  0000 L CNN
+F 2 "" H 5038 4600 30  0000 C CNN
+F 3 "" H 5000 4750 60  0000 C CNN
+	1    5000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 550FCD51
+P 4800 2800
+F 0 "C1" V 4900 2950 50  0000 L CNN
+F 1 "100nF" V 4600 2850 50  0000 L CNN
+F 2 "" H 4838 2650 30  0000 C CNN
+F 3 "" H 4800 2800 60  0000 C CNN
+	1    4800 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C3
+U 1 1 550FCD81
+P 6700 3050
+F 0 "C3" H 6725 3150 50  0000 L CNN
+F 1 "100nF" H 6725 2950 50  0000 L CNN
+F 2 "" H 6738 2900 30  0000 C CNN
+F 3 "" H 6700 3050 60  0000 C CNN
+	1    6700 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4450 5950 5000
+Wire Wire Line
+	5000 5000 6900 5000
+Wire Wire Line
+	5000 5000 5000 4900
+Wire Wire Line
+	5750 4450 5750 5100
+Connection ~ 5750 5000
+Wire Wire Line
+	5000 4450 5000 4600
+Wire Wire Line
+	4000 4500 5000 4500
+Connection ~ 5000 4500
+Wire Wire Line
+	4950 2800 5050 2800
+Wire Wire Line
+	5050 2550 5050 2900
+Connection ~ 5050 2800
+$Comp
+L GND #PWR?
+U 1 1 550FCE96
+P 4550 2800
+F 0 "#PWR?" H 4550 2550 50  0001 C CNN
+F 1 "GND" H 4550 2650 50  0000 C CNN
+F 2 "" H 4550 2800 60  0000 C CNN
+F 3 "" H 4550 2800 60  0000 C CNN
+	1    4550 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 550FCEAE
+P 5750 5100
+F 0 "#PWR?" H 5750 4850 50  0001 C CNN
+F 1 "GND" H 5750 4950 50  0000 C CNN
+F 2 "" H 5750 5100 60  0000 C CNN
+F 3 "" H 5750 5100 60  0000 C CNN
+	1    5750 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 550FCECA
+P 6700 2800
+F 0 "#PWR?" H 6700 2550 50  0001 C CNN
+F 1 "GND" H 6700 2650 50  0000 C CNN
+F 2 "" H 6700 2800 60  0000 C CNN
+F 3 "" H 6700 2800 60  0000 C CNN
+	1    6700 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 3300 7250 3300
+Wire Wire Line
+	6700 3200 6700 3300
+Connection ~ 6700 3300
+Wire Wire Line
+	4550 2800 4650 2800
+Wire Wire Line
+	6700 2800 6700 2900
+$Comp
+L CONN_01X08 P1
+U 1 1 550FCF8D
+P 3450 3600
+F 0 "P1" H 3450 4050 50  0000 C CNN
+F 1 "CONN_01X08" V 3550 3600 50  0000 C CNN
+F 2 "" H 3450 3600 60  0000 C CNN
+F 3 "" H 3450 3600 60  0000 C CNN
+	1    3450 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 3350 4200 3350
+Wire Wire Line
+	4200 3350 4200 3300
+Wire Wire Line
+	4200 3300 4450 3300
+Wire Wire Line
+	3650 3450 4200 3450
+Wire Wire Line
+	4200 3450 4200 3500
+Wire Wire Line
+	4200 3500 4450 3500
+Wire Wire Line
+	3650 3550 4150 3550
+Wire Wire Line
+	4150 3550 4150 3700
+Wire Wire Line
+	4150 3700 4450 3700
+Wire Wire Line
+	3650 3650 4050 3650
+Wire Wire Line
+	4050 3650 4050 3900
+Wire Wire Line
+	4050 3900 4450 3900
+Wire Wire Line
+	3650 3250 4000 3250
+Wire Wire Line
+	4000 3250 4000 4500
+Wire Wire Line
+	3650 3750 3900 3750
+Wire Wire Line
+	3900 3750 3900 2550
+Wire Wire Line
+	3900 2550 5050 2550
+Wire Wire Line
+	3650 3850 3900 3850
+Wire Wire Line
+	3650 3950 3900 3950
+Wire Wire Line
+	5500 2900 5500 2600
+Wire Wire Line
+	5800 2900 5800 2600
+Text Label 5500 2850 1    60   ~ 0
+REFP
+Text Label 5800 2850 1    60   ~ 0
+REFN
+Text Label 3700 3850 0    60   ~ 0
+REFP
+Text Label 3700 3950 0    60   ~ 0
+REFN
+Text Label 4600 4500 0    60   ~ 0
+AVSS
+$Comp
+L CONN_01X08 P2
+U 1 1 550FD25A
+P 7450 3650
+F 0 "P2" H 7450 4100 50  0000 C CNN
+F 1 "CONN_01X08" V 7550 3650 50  0000 C CNN
+F 2 "" H 7450 3650 60  0000 C CNN
+F 3 "" H 7450 3650 60  0000 C CNN
+	1    7450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3900 6900 3900
+Wire Wire Line
+	6900 3900 6900 5000
+Connection ~ 5950 5000
+Wire Wire Line
+	7250 4000 7000 4000
+Text Label 7050 4000 0    60   ~ 0
+AVSS
+Wire Wire Line
+	6450 3800 7250 3800
+Wire Wire Line
+	6450 3700 7250 3700
+Wire Wire Line
+	6450 3600 7250 3600
+Wire Wire Line
+	6450 3500 7250 3500
+Wire Wire Line
+	6450 3900 6800 3900
+Wire Wire Line
+	6800 3900 6800 3400
+Wire Wire Line
+	6800 3400 7250 3400
+$EndSCHEMATC
