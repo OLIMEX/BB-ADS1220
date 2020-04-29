@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 0.201506092247+5726~23~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 0.201504271001+5626~23~ubuntu14.10.1-product)
 
   (general
     (links 23)
@@ -60,11 +60,10 @@
     (mod_text_width 0.15)
     (pad_size 1.5 1.5)
     (pad_drill 0.6)
-    (pad_to_mask_clearance 0.0508)
-    (solder_mask_min_width 0.0508)
-    (pad_to_paste_clearance -0.0508)
-    (aux_axis_origin 159.38 123.81)
-    (grid_origin 159.38 123.81)
+    (pad_to_mask_clearance 0.002)
+    (solder_mask_min_width 0.002)
+    (pad_to_paste_clearance -0.002)
+    (aux_axis_origin 0 0)
     (visible_elements FFFEFF7F)
     (pcbplotparams
       (layerselection 0x000f8_00000000)
@@ -90,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory pickandplace/))
+      (outputdirectory ""))
   )
 
   (net 0 "")
